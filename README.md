@@ -1,2 +1,2 @@
-# RockPaperScissors.github.io
-Rock paper and scissors game in javascript
+# SimpleCalculator
+Simple calculator in javascript.
