@@ -24,7 +24,7 @@ function win(userChoice,compChoice) {
     userScore++;
     userScore_span.innerHTML=userScore;
     compScore_span.innerHTML=compScore;
-    result_div.innerHTML=convertToword(userChoice) +" beats "+convertToword(compChoice)+ " You win!!";    
+    result_div.innerHTML=convertToword(userChoice) +" beats "+convertToword(compChoice)+ "  You win!!";    
 
 }
 
@@ -32,10 +32,10 @@ function lose(userChoice,compChoice) {
     compScore++;
     userScore_span.innerHTML=userScore;
     compScore_span.innerHTML=compScore;
-    result_div.innerHTML=convertToword(userChoice) + " Lost to "+ convertToword(compChoice)+ " You Lost";
+    result_div.innerHTML=convertToword(userChoice) + " Lost to "+ convertToword(compChoice)+ "     You Lost";
 }
 function draw(userChoice,compChoice) {
-    result_div.innerHTML=convertToword(userChoice) + " equals "+ convertToword(compChoice)+ " Its A Draw!!";
+    result_div.innerHTML=convertToword(userChoice) + " equals "+ convertToword(compChoice)+ "  Its A Draw!!";
 }
 
 function game(userChoice){
