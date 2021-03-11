@@ -54,7 +54,7 @@ function game(userChoice){
         case "ss":
         case "rr":
         case "pp":
-              draw();
+              draw(userChoice,compChoice);
               break;
     }
 }
