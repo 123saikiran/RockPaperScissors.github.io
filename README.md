@@ -1,2 +1,2 @@
-# SimpleCalculator
-Simple calculator in javascript.
+# Rock Paper And Scissors!!
+Rock Paper And Scissors in javascript.
